@@ -1,7 +1,11 @@
+import HomeIndex from "./containers/Homepage/HomeIndex";
+import NavIndex from "./containers/Navbar/NavIndex";
+
 const App = () => {
   return (
     <>
-      <p>This is demo Project</p>
+      <NavIndex />
+      <HomeIndex />
     </>
   );
 };
